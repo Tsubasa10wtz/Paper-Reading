@@ -1,8 +1,8 @@
 # TTLs Matter: Efficient Cache Sizing with TTL-Aware Miss Ratio Curves and Working Set Sizes
 
-## 一句话总结
+## 简要总结
 
-​	内存级WSS和MRC估计
+​	问题：云环境中WSS和MRC估计无法用到TTL信息。
 
 ## 名词
 
