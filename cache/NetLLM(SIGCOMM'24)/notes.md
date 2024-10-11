@@ -1,6 +1,6 @@
 # NetLLM: Adapting Large Language Models for Networking
 
-## 问题
+## 解决的问题
 
 传统的深度学习解决网络的预测和优化问题不能做到“one model for all tasks”，但是大模型可以凭借预训练和处理网络问题中多模态数据的能力来更有效的学习特定领域的知识。
 
@@ -46,4 +46,13 @@ can we embrace the era of LLMs and adapt LLMs to solve various networking tasks 
 
 #### 本文提到的三个和网络相关的用例
 （可能阐述为什么使用大模型可能改进这三个用例，有什么特别的点）
+
+## 问题
+
+网络问题中数据多模态指的是什么
+
+
+如何感知输入；如何微调增强；如何输出应用
+
+如何感知输入：不同应用的数据访问信息最后都被表征为一个序列？如果是这样，那么就不需要处理NetLLM的多模态问题，输入在格式上统一。
 
