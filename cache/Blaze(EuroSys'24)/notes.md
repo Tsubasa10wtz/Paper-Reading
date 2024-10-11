@@ -20,6 +20,23 @@
 
 作为单独的层的是，缓存层只管缓存，替换层定期检查缓存容量并执行替换。
 
+## 精读
+
+### 3 Observation and Motivation
+
+#### 3.1 Caching and Eviction Mechanisms
+
+*Caching Layer*想表达的现存的问题是，用户通过API决定缓存整个数据集或是不缓存数据集，这会导致无效分区挤占分区替换掉原有的需要使用的分区。
+
+*Eviction Layer*想表达的是需要多考虑一个重新计算分区的成本。
+
+
+
+
+## 写作上要学习的点
+
+3.1小节的Caching layer部分，怎么去讲一个之前没有人做的点（没有引用支撑）。
+
 
 
 
