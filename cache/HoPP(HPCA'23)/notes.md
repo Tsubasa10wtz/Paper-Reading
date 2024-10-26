@@ -1,5 +1,8 @@
 # HoPP: Hardware-Software Co-Designed Page Prefetching for Disaggregated Memory
 
+## Contribution
+
+1、硬件实现Memory Controller
 
 ## 怎么攻击Leap
 
