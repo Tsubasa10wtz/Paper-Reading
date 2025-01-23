@@ -57,6 +57,19 @@ can we embrace the era of LLMs and adapt LLMs to solve various networking tasks 
 #### Challenge 1: Large modality gap.
 这里想说明了为什么把多模态信息单纯地转换成text不行。实验佐证。
 
+#### Challenge 2: Inefficiency of token-based answer generation.
+推理中的问题。
+（1）答案无效 （2）回答超时
+
+#### Challenge 3: High adaptation costs.
+微调中的问题
+
+### NETLLM Design
+直接针对上面三个组件设计三个部件。
+
+用于图像的 ViT、用于时间序列和序列数据的 1D-CNN（例如，ABR 中不同比特率的历史吞吐量和未来块大小）、全连接层用于标量数据（例如，ABR 中的缓冲区占用率），GNN 用于图形信息（例如，CJS 中的 DAG）。
+
+如果找不到DAG，就用不上GNN了，会减少设计上的复杂性。
 
 ## 问题
 
