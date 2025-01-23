@@ -43,9 +43,20 @@ can we embrace the era of LLMs and adapt LLMs to solve various networking tasks 
 
 `感觉如果我们来做也是相同的挑战？`
 
+### Background
+### Learning-Based Networking Algorithms
+这一段是怎么组织的：前面提到的两类问题--预测和决策分别存在什么样的已有问题？
 
-#### 本文提到的三个和网络相关的用例
-（可能阐述为什么使用大模型可能改进这三个用例，有什么特别的点）
+深度学习和强化学习
+
+
+### Motivation
+#### Why these tasks?
+(1) SL vs RL. (2) different modalities
+
+#### Challenge 1: Large modality gap.
+这里想说明了为什么把多模态信息单纯地转换成text不行。实验佐证。
+
 
 ## 问题
 
@@ -56,3 +67,5 @@ can we embrace the era of LLMs and adapt LLMs to solve various networking tasks 
 
 如何感知输入：不同应用的数据访问信息最后都被表征为一个序列？如果是这样，那么就不需要处理NetLLM的多模态问题，输入在格式上统一。
 
+
+适应性是LLM带来的吗？
