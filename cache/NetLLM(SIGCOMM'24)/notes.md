@@ -82,3 +82,5 @@ can we embrace the era of LLMs and adapt LLMs to solve various networking tasks 
 
 
 适应性是LLM带来的吗？
+
+怎么证明需要解决输入形式的问题？
