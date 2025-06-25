@@ -16,7 +16,7 @@
 
 ### List
 
-#### A Framework for Memory Oversubscription  Management in Graphics Processing Units(ASPLOS’19)
+#### A Framework for Memory Oversubscription Management in Graphics Processing Units(ASPLOS’19)
 ...
 
 #### DeepUM: Tensor Migration and Prefetching in Unified Memory(ASPLOS ’23)
@@ -31,7 +31,7 @@ DyNN Training虽然动态选择模块激活，但是本质上访问模式还是�
 
 
 
-#### Understanding Oversubscribed Memory Management  for Deep Learning Training(EuroMLSys'25)
+#### Understanding Oversubscribed Memory Management for Deep Learning Training(EuroMLSys'25)
 
 PCA+UVM可以得到很好的效果，可以缓解oversubscription的问题
 
