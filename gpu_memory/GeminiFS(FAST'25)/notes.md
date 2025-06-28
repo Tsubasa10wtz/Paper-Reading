@@ -10,3 +10,7 @@ BaM最大的问题--没有和application完全解耦，cuda实现application，�
 
 
 GPU对NVMe发起直接控制失去文件系统功能的本质--文件系统是CPU-centric管理的？
+
+
+### 问题
+文章强调GeminiFS可以做到数据共享，却没有相关实验。
